@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="s1" class="org.kodnest.bean.Student">
+  <property name="id" value="1"></property>
+  <property name="name" value="Mahesh"></property>
+  </bean>
+  <bean id="s2" class="org.kodnest.bean.Student">
+  <property name="id" value="2"></property>
+  <property name="name" value="jhon"></property>
+  </bean>
+  <bean id="s3" class="org.kodnest.bean.Laptop">
+  <property name="color" value="black"></property>
+  <property name="name" value="dell"></property>
+  </bean>
+  
+  
+</beans>
