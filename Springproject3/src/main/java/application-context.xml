@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="p1" class="com.kodnest.bean.Employee">
+  <!-- setter injection -->
+  <property name="empid" value="1"></property>
+  <property name="empname" value="Mahesh"></property>
+  <property name="technologies">
+  <map>
+  <entry key="1" value="Java"></entry>
+  <entry key="2" value="python"></entry>
+  <entry key="3" value="Js"></entry>
+  </map>
+  </property>
+  <property name="organisations">
+  <set>
+  <value>cts</value>
+  <value>WIpro</value>
+  </set>
+  </property>
+  <!-- <property name="empname" value="Laptop"></property> -->
+  </bean>  
+</beans>
